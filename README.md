@@ -70,11 +70,7 @@
 
 1. Download the latest `.xpi` from the **Releases** page.
 2. Open Firefox.
-3. Go to:
-
-   ```text
-   about:addons
-   ```
+3. Go to: about:addons
 
 4. Click the gear icon.
 5. Select **Install Add-on From File**.
@@ -85,26 +81,11 @@
 
 ## Developer install
 
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
-   ```
-
-2. Open Firefox and go to:
-
-   ```text
-   about:debugging
-   ```
-
+1. Clone this repository.
+2. Open Firefox and go to: "about:debugging"
 3. Select **This Firefox**.
 4. Click **Load Temporary Add-on**.
-5. Select:
-
-   ```text
-   manifest.json
-   ```
+5. Select file: "manifest.json"
 
 > Temporary add-ons are removed when Firefox restarts.
 
