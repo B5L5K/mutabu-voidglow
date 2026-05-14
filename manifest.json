@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "無タブ · mutabu",
+  "name": "Voidglow",
   "version": "1.2.0",
-  "description": "custom new tab page",
+  "description": "Minimal CRT terminal new tab page",
   "permissions": ["geolocation", "storage"],
   "icons": {
     "48": "assets/icons/icon-48.png",
@@ -18,7 +18,7 @@
   "content_security_policy": "script-src 'self' 'wasm-unsafe-eval' 'sha256-Zgn43/zQbg8kVebod2GUoeVQvINxt1cofvQbhYvRwd0='; object-src 'self'",
   "browser_specific_settings": {
     "gecko": {
-      "id": "mutabu@extension",
+      "id": "voidglow@b5l5k",
       "strict_min_version": "128.0",
       "data_collection_permissions": {
         "required": ["none"],

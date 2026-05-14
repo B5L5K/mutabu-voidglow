@@ -68,6 +68,28 @@ body.theme-light #crt {
     );
 }
 
+body.theme-void #crt {
+    background: repeating-linear-gradient(
+        to bottom,
+        rgba(168, 255, 181, 0.018),
+        rgba(168, 255, 181, 0.018) 1px,
+        transparent 1px,
+        transparent 2px
+    );
+    opacity: 0.05;
+}
+
+*::selection {
+    background: #a8ffb5;
+    color: #000000;
+    text-shadow: none;
+}
+
+body.theme-void *:focus-visible {
+    outline: 1px solid var(--accent);
+    outline-offset: 2px;
+}
+
 /* Layer 3: content */
 a {
     color: var(--accent);
@@ -85,6 +107,77 @@ a:hover {
     display: grid;
     grid-template-rows: auto auto 1fr auto;
     gap: 16px;
+}
+
+body.theme-void .section,
+body.theme-void .widget,
+body.theme-void .widget-body,
+body.theme-void .search-bar,
+body.theme-void .search-engines,
+body.theme-void .section-title,
+body.theme-void .timer-input,
+body.theme-void .rain-player,
+body.theme-void .rain-track,
+body.theme-void .option-group,
+body.theme-void .profile-slot,
+body.theme-void .folder-head {
+    background: #000000;
+    border: 1px solid var(--border);
+    border-radius: 0;
+    box-shadow: none;
+    clip-path: none;
+}
+
+body.theme-void input,
+body.theme-void textarea,
+body.theme-void select,
+body.theme-void button,
+body.theme-void .option-btn,
+body.theme-void .engine-btn,
+body.theme-void .back-btn,
+body.theme-void .btn {
+    background: #000000;
+    border: 1px solid var(--border);
+    color: var(--white);
+    border-radius: 0;
+    box-shadow: none;
+    clip-path: none;
+}
+
+body.theme-void .engine-btn:hover,
+body.theme-void .option-btn:hover,
+body.theme-void button:hover,
+body.theme-void .btn:hover {
+    background: rgba(168, 255, 181, 0.06);
+}
+
+body.theme-void .engine-btn.active,
+body.theme-void .option-btn.selected,
+body.theme-void button:active,
+body.theme-void .btn.primary:hover,
+body.theme-void .btn.selected {
+    background: rgba(168, 255, 181, 0.10);
+}
+
+body.theme-void .st-label,
+body.theme-void .timer-label,
+body.theme-void .profile-slot .slot-label,
+body.theme-void .profile-slot .slot-plus {
+    color: var(--dim);
+}
+
+body.theme-void .header-deco,
+body.theme-void #greeting,
+body.theme-void #username,
+body.theme-void .header-btns button,
+body.theme-void .widget-title,
+body.theme-void .wt-label,
+body.theme-void .wt-act,
+body.theme-void .wt-btn,
+body.theme-void .folder-head-btn,
+body.theme-void .qa-edit,
+body.theme-void .tile-edit {
+    color: var(--white);
 }
 
 /* ─── HEADER ROW ────────────────────────────────────── */
@@ -429,6 +522,10 @@ body.font-oxanium .timer-sep {
     position: relative;
 }
 
+body.theme-void .widget-title {
+    background: #000000;
+}
+
 .widget-title::after {
     content: "";
     position: absolute;
@@ -436,7 +533,7 @@ body.font-oxanium .timer-sep {
     top: 0;
     bottom: 0;
     right: 72px;
-    background: linear-gradient(to right, transparent 70%, var(--titlebar));
+    background: transparent;
     pointer-events: none;
 }
 
@@ -871,7 +968,11 @@ a.fav-tile span {
 /* ─── DIVIDER ───────────────────────────────────────── */
 .divider {
     height: 1px;
-    background: linear-gradient(to right, var(--border-lt), transparent);
+    background: var(--border-lt);
+}
+
+body.theme-void .divider {
+    background: #000000;
 }
 
 /* ─── ACCENT STRIP ──────────────────────────────────── */
@@ -1596,8 +1697,62 @@ body.edit-mode .recent-add-tile {
 
 /* ─── SELECTION ─────────────────────────────────────── */
 ::selection {
-    background: rgba(138, 180, 248, 0.25);
+    background: #a8ffb5;
+    color: #000000;
+    text-shadow: none;
+}
+
+body.theme-void .engine-btn.active {
+    background: rgba(168, 255, 181, 0.10);
+    color: var(--accent);
+}
+
+body.theme-void .widget,
+body.theme-void .section,
+body.theme-void .widget-body,
+body.theme-void .search-bar,
+body.theme-void .search-engines,
+body.theme-void .section-title,
+body.theme-void .profile-slot,
+body.theme-void details.folder,
+body.theme-void a.fav-tile,
+body.theme-void .quick-links a,
+body.theme-void .ctx-item,
+body.theme-void .option-group,
+body.theme-void input,
+body.theme-void textarea,
+body.theme-void select,
+body.theme-void button,
+body.theme-void .btn,
+body.theme-void .option-btn,
+body.theme-void .engine-btn,
+body.theme-void .back-btn {
+    background: #000000;
+    border-color: var(--border);
+    box-shadow: none;
+    clip-path: none;
+    border-radius: 0;
+}
+
+body.theme-void summary.folder-head:hover,
+body.theme-void a.fav-tile:hover,
+body.theme-void .quick-links a:hover,
+body.theme-void .ctx-item:hover {
+    background: rgba(168, 255, 181, 0.06);
     color: var(--white);
+}
+
+body.theme-void summary.folder-head:hover {
+    border-left-color: var(--accent);
+}
+
+body.theme-void a.fav-tile:hover {
+    border-left-color: var(--accent);
+    color: var(--accent);
+}
+
+body.theme-void .ctx-item.danger:hover {
+    color: var(--red);
 }
 
 .page-footer {

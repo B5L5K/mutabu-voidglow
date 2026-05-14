@@ -1,25 +1,26 @@
 <div align="center">
-  <img src="./assets/icons/icon-128.png" width="128px" />
-  <h1>無タブ · mutabu</h1>
+  <h1>Voidglow</h1>
 </div>
 
-Minimal, customisable Firefox new tab page. Dark/light themes, bookmarks, ambient rain sounds, Japanese word of the day, clock, notes, and more. Licensed under AGPL-3.0.
-
-<img src="./assets/images/screenshot-mutabu.png" />
+A minimalist Firefox new tab page styled as a CRT terminal. Includes search, quick access, timers, ambient rain sound, bookmarks, notes, and a custom Voidglow theme. Licensed under AGPL-3.0.
 
 ## Installation
 
-### From Mozilla Add-ons (recommended)
-<a href="https://addons.mozilla.org/en-GB/firefox/addon/%E7%84%A1%E3%82%BF%E3%83%96-mutabu/">
-  <img width="25%" height="25%" alt="get the add-on button" src="./assets/images/add-on.png" />
-</a>
+### Manual Installation
+1. Download the latest `.xpi` from the [Releases page](https://github.com/B5L5K/mutabu-voidglow/releases/latest).
+2. Open Firefox and go to `about:addons`.
+3. Click the gear icon ⚙ → **Install Add-on From File**.
+4. Select the downloaded `.xpi` file.
+5. Click **Add** when prompted.
 
-1. Click "Get the Add-On"
-2. Confirm permissions
+### Developer install
+1. Clone or download this repository.
+2. Open `about:debugging` in Firefox.
+3. Choose **This Firefox** and click **Load Temporary Add-on**.
+4. Select `manifest.json` from the repository.
 
-### Manual install (signed)
-1. Download `mutabu-1.0.2.xpi` from the [latest release](https://github.com/gary-host-laptop/mutabu/releases/latest)
-2. Open Firefox and go to `about:addons`
-3. Click the gear icon ⚙ → **Install Add-on From File**
-4. Select the downloaded `.xpi` file
-5. Click **Add** when prompted
+## Author
+Fork and maintenance by **b5l5k**.
+
+## GitHub Pages
+A GitHub Pages site can be published from this repository once the `docs` folder is pushed live.

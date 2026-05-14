@@ -14,6 +14,7 @@
 const THEMES = [
   { id: "dark", label: "dark" },
   { id: "light", label: "light" },
+  { id: "void", label: "Voidglow" },
 ];
 
 /* ── STORAGE ─────────────────────────────────────────────────── */
@@ -75,6 +76,11 @@ const FONTS_LATIN = [
     family: "'Share Tech Mono', monospace",
   },
   { id: "vt323", name: "VT323", family: "'VT323', monospace" },
+  { id: "courier", name: "Courier New", family: "'Courier New', monospace" },
+  { id: "ibm-plex-mono", name: "IBM Plex Mono", family: "'IBM Plex Mono', monospace" },
+  { id: "liberation-mono", name: "Liberation Mono", family: "'Liberation Mono', monospace" },
+  { id: "roboto-mono", name: "Roboto Mono", family: "'Roboto Mono', monospace" },
+  { id: "source-code-pro", name: "Source Code Pro", family: "'Source Code Pro', monospace" },
 ];
 
 const FONTS_JP = [
@@ -99,6 +105,10 @@ const FONTS_CLOCK = [
   { id: "medodica", name: "Medodica", family: "'Medodica', monospace" },
   { id: "orbitron", name: "Orbitron", family: "'Orbitron', monospace" },
   { id: "oxanium", name: "Oxanium", family: "'Oxanium', monospace" },
+  { id: "courier", name: "Courier New", family: "'Courier New', monospace" },
+  { id: "ibm-plex-mono", name: "IBM Plex Mono", family: "'IBM Plex Mono', monospace" },
+  { id: "liberation-mono", name: "Liberation Mono", family: "'Liberation Mono', monospace" },
+  { id: "roboto-mono", name: "Roboto Mono", family: "'Roboto Mono', monospace" },
 ];
 
 /* ── FONT STATE ──────────────────────────────────────────────── */
@@ -1059,7 +1069,7 @@ document.getElementById("export-btn").addEventListener("click", async () => {
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = "mutabu-settings.json";
+  a.download = "voidglow-settings.json";
   a.click();
   URL.revokeObjectURL(url);
 });

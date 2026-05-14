@@ -1,7 +1,7 @@
 /* ══════════════════════════════════════════════════════════════
-   theme.css — theme variable definitions for 無タブ
+   theme.css — theme variable definitions for Voidglow
    ──────────────────────────────────────────────────────────────
-   Each theme is a body class: body.theme-dark, body.theme-light
+   Each theme is a body class: body.theme-dark, body.theme-light, body.theme-void
    The default (no class) falls back to dark.
 
    To add a new theme:
@@ -45,4 +45,25 @@ body.theme-light {
     --accent3: #3a9a3a;
     --red: #c83030;
     --titlebar: #dcdce0;
+}
+
+/* ── VOIDGLOW ───────────────────────────────────────────────────── */
+html.theme-void body,
+body.theme-void {
+    --bg: #000000;
+    --panel: #000000;
+    --panel2: #050b06;
+    --border: rgba(168, 255, 181, 0.35);
+    --border-lt: rgba(168, 255, 181, 0.18);
+    --white: #a8ffb5;
+    --dim: #86c990;
+    --dimmer: #5f8f66;
+    --accent: #a8ffb5;
+    --accent2: #86c990;
+    --accent3: #5f8f66;
+    --red: #ff5f5f;
+    --titlebar: #050b06;
+    --warning: #ffe066;
+    --font-pixel: "Droid Sans Mono", Consolas, Menlo, monospace;
+    --font-doto: "Droid Sans Mono", Consolas, Menlo, monospace;
 }

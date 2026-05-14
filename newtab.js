@@ -1298,7 +1298,7 @@ function renderFooter() {
   if (!footer) return;
   const label = "BUILT WITH SOLIDARITY";
   const manifest = browser.runtime.getManifest();
-  const version = `無タブ · v${manifest.version}`;
+  const version = `Voidglow · v${manifest.version}`;
   const style = getComputedStyle(footer);
   const canvas = document.createElement("canvas");
   const ctx = canvas.getContext("2d");
@@ -1319,7 +1319,7 @@ function renderFooter() {
   );
   const pad = "━".repeat(fillChars);
   const dots = `[<span class="footer-dot dot-1">●</span> <span class="footer-dot dot-2">●</span> <span class="footer-dot dot-3">●</span>]`;
-  footer.innerHTML = `┗━ · ━━━━ · <a href="https://github.com/gary-host-laptop/mutabu" target="_blank" class="footer-gh"><i class="ph-light ph-github-logo"></i></a> ${label} · ━━━━${pad}${dots}━━━━ · ${version} · ━━━━ · ━┛`;
+  footer.innerHTML = `┗━ · ━━━━ · <a href="https://github.com/B5L5K/mutabu-voidglow" target="_blank" class="footer-gh"><i class="ph-light ph-github-logo"></i></a> ${label} · ━━━━${pad}${dots}━━━━ · ${version} · ━━━━ · ━┛`;
 }
 document.fonts.ready.then(() => renderFooter());
 window.addEventListener("resize", renderFooter);

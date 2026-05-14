@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════
-   i18n.js — translation strings for 無タブ
+   i18n.js — translation strings for Voidglow
    ──────────────────────────────────────────────────────────────
    Structure per locale:
      name     — display name shown in language selectors
