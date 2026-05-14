@@ -55,6 +55,8 @@
 
 ## Features
 
+<div align="center"> 
+ <pre>
 ```text
 [01] CRT-inspired terminal interface
 [02] Fast search from the new tab page
@@ -66,6 +68,7 @@
 [08] Custom Voidglow theme
 [09] Minimal dark UI with low-glow styling
 ```
+ </pre>
 
 ---
 
