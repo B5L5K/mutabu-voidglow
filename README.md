@@ -24,26 +24,104 @@ by
                                             ▀                             ▀
 </pre>
 
+<p>
+  <strong>A minimalist Firefox new tab page styled as a quiet CRT terminal.</strong>
+</p>
+
+<p>
+  Search, quick access, timers, ambient rain, bookmarks, notes, and the custom Voidglow theme.
+</p>
+
+<p>
+  <img alt="License: AGPL-3.0" src="https://img.shields.io/badge/license-AGPL--3.0-111111?style=flat-square">
+  <img alt="Firefox" src="https://img.shields.io/badge/firefox-extension-111111?style=flat-square">
+  <img alt="Theme" src="https://img.shields.io/badge/theme-voidglow-111111?style=flat-square">
+</p>
+
 </div>
 
-A minimalist Firefox new tab page styled as a CRT terminal. Includes search, quick access, timers, ambient rain sound, bookmarks, notes, and a custom Voidglow theme. Licensed under AGPL-3.0.
+---
 
-<img width="2237" height="1651" alt="image" src="https://github.com/user-attachments/assets/2778bd22-3476-4b04-b1be-0b6d704a55d6" />
+## Preview
+
+<p align="center">
+  <img src="[image](https://github.com/user-attachments/assets/2778bd22-3476-4b04-b1be-0b6d704a55d6)" alt="Voidglow Firefox new tab preview">
+</p>
+
+---
+
+## Features
+
+```text
+[01] CRT-inspired terminal interface
+[02] Fast search from the new tab page
+[03] Quick-access links
+[04] Timers and lightweight focus tools
+[05] Ambient rain sound
+[06] Bookmarks panel
+[07] Notes area
+[08] Custom Voidglow theme
+[09] Minimal dark UI with low-glow styling
+```
+
+---
 
 ## Installation
 
-### Manual Installation
-1. Download the latest `.xpi` from the [Releases page](https://github.com/B5L5K/mutabu-voidglow/releases/latest).
-2. Open Firefox and go to `about:addons`.
-3. Click the gear icon ⚙ → **Install Add-on From File**.
-4. Select the downloaded `.xpi` file.
-5. Click **Add** when prompted.
+### Manual installation
 
-### Developer install
-1. Clone or download this repository.
-2. Open `about:debugging` in Firefox.
-3. Choose **This Firefox** and click **Load Temporary Add-on**.
-4. Select `manifest.json` from the repository.
+1. Download the latest `.xpi` from the **Releases** page.
+2. Open Firefox.
+3. Go to:
+
+   ```text
+   about:addons
+   ```
+
+4. Click the gear icon.
+5. Select **Install Add-on From File**.
+6. Select the downloaded `.xpi` file.
+7. Click **Add** when prompted.
+
+---
+
+## Developer install
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   cd YOUR_REPO
+   ```
+
+2. Open Firefox and go to:
+
+   ```text
+   about:debugging
+   ```
+
+3. Select **This Firefox**.
+4. Click **Load Temporary Add-on**.
+5. Select:
+
+   ```text
+   manifest.json
+   ```
+
+> Temporary add-ons are removed when Firefox restarts.
+
+---
+
+## License
+
+```text
+AGPL-3.0
+```
+
+---
 
 ## Author
-Fork and maintenance by **b5l5k**.
+
+```text
+Fork and maintenance by b5l5k.
+```
