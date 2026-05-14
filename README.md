@@ -57,7 +57,6 @@
 
 <div align="center"> 
  <pre>
-```text
 [01] CRT-inspired terminal interface
 [02] Fast search from the new tab page
 [03] Quick-access links
@@ -67,7 +66,6 @@
 [07] Notes area
 [08] Custom Voidglow theme
 [09] Minimal dark UI with low-glow styling
-```
  </pre>
 
 ---
@@ -76,24 +74,29 @@
 
 ### Manual installation
 
-1. Download the latest `.xpi` from the **Releases** page.
-2. Open Firefox.
-3. Go to: about:addons
-
-4. Click the gear icon.
-5. Select **Install Add-on From File**.
-6. Select the downloaded `.xpi` file.
-7. Click **Add** when prompted.
-
+<div align="center"> 
+ <pre>
+[01] Download the latest `.xpi` from the **Releases** page.
+[02] Open Firefox.
+[03] Go to: about:addons
+[04] Click the gear icon.
+[05] Select **Install Add-on From File**.
+[06] Select the downloaded `.xpi` file.
+[07] Click **Add** when prompted.
+ </pre>
+ 
 ---
 
 ## Developer install
 
-1. Clone this repository.
-2. Open Firefox and go to: "about:debugging"
-3. Select **This Firefox**.
-4. Click **Load Temporary Add-on**.
-5. Select file: "manifest.json"
+<div align="center"> 
+ <pre>
+[01] Clone this repository.
+[02] Open Firefox and go to: "about:debugging"
+[03] Select **This Firefox**.
+[04] Click **Load Temporary Add-on**.
+[05] Select file: "manifest.json"
+ </pre>
 
 > Temporary add-ons are removed when Firefox restarts.
 
