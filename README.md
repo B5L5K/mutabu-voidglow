@@ -4,6 +4,8 @@
 
 A minimalist Firefox new tab page styled as a CRT terminal. Includes search, quick access, timers, ambient rain sound, bookmarks, notes, and a custom Voidglow theme. Licensed under AGPL-3.0.
 
+<img width="3671" height="1924" alt="image" src="https://github.com/user-attachments/assets/2662f4e9-8012-4dee-a596-110517a2bb84" />
+
 ## Installation
 
 ### Manual Installation
@@ -21,6 +23,3 @@ A minimalist Firefox new tab page styled as a CRT terminal. Includes search, qui
 
 ## Author
 Fork and maintenance by **b5l5k**.
-
-## GitHub Pages
-A GitHub Pages site can be published from this repository once the `docs` folder is pushed live.
