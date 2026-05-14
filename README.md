@@ -8,9 +8,7 @@
   ████    ██████  ██ ██████   ██████  ███████  ██████   ███ ███
 </pre>
 
-by
-
-<div align="center">
+<p>by</p>
 
 <pre>
 ▀█████████▄     ▄████████    ▄████████  ▄█   ▄█        ▄█     ▄████████    ▄█   ▄█▄
@@ -45,7 +43,7 @@ by
 ## Preview
 
 <p align="center">
-  <img src="[image](https://github.com/user-attachments/assets/2778bd22-3476-4b04-b1be-0b6d704a55d6)" alt="Voidglow Firefox new tab preview">
+  <img src="https://github.com/user-attachments/assets/2778bd22-3476-4b04-b1be-0b6d704a55d6" alt="Voidglow Firefox new tab preview">
 </p>
 
 ---
