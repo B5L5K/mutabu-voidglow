@@ -23,6 +23,3 @@ A minimalist Firefox new tab page styled as a CRT terminal. Includes search, qui
 
 ## Author
 Fork and maintenance by **b5l5k**.
-
-## GitHub Pages
-A GitHub Pages site can be published from this repository once the `docs` folder is pushed live.
