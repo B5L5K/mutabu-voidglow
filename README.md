@@ -7,8 +7,9 @@
  ██  ██  ██    ██ ██ ██   ██ ██    ██ ██      ██    ██ ██ ███ ██
   ████    ██████  ██ ██████   ██████  ███████  ██████   ███ ███
 </pre>
+
 by
-</div>
+
 ```text
 ▀█████████▄     ▄████████    ▄████████  ▄█   ▄█        ▄█     ▄████████    ▄█   ▄█▄
   ███    ███   ███    ███   ███    ███ ███  ███       ███    ███    ███   ███ ▄███▀
@@ -20,6 +21,7 @@ by
 ▄█████████▀    ███    █▀   ▄████████▀  █▀   █████▄▄██ █▀    ▄████████▀    ███   ▀█▀
                                             ▀                             ▀
 ```
+
 A minimalist Firefox new tab page styled as a CRT terminal. Includes search, quick access, timers, ambient rain sound, bookmarks, notes, and a custom Voidglow theme. Licensed under AGPL-3.0.
 
 <img width="2237" height="1651" alt="image" src="https://github.com/user-attachments/assets/2778bd22-3476-4b04-b1be-0b6d704a55d6" />
