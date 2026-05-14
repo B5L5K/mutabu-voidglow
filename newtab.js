@@ -1642,8 +1642,9 @@ document.addEventListener("keydown", (e) => {
 
     /* ── 9. CUSTOM QUOTES ── */
     let customQuotes = _get("nt_custom_quotes");
-    if (!customQuotes) {
-      customQuotes = QUOTE_DEFAULTS;
+    if (!customQuotes || customQuotes.length < QUOTE_DEFAULTS.length) {
+      // Reset to full defaults if missing or truncated
+      customQuotes = [...QUOTE_DEFAULTS];
       await Store.set("nt_custom_quotes", customQuotes);
     }
     if (customQuotes.length > 0) {
