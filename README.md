@@ -21,8 +21,8 @@
 ▄█████████▀    ███    █▀   ▄████████▀  █▀   █████▄▄██ █▀    ▄████████▀    ███   ▀█▀
                                             ▀                             ▀
 </pre>
-
 <div align="center">
+
 <pre>
  A gary-host-laptop/mutabu fork.
 </pre>
@@ -41,8 +41,11 @@
   <img alt="Theme" src="https://img.shields.io/badge/theme-voidglow-111111?style=flat-square">
 </p>
 
+![Repo Views](https://gitviews.com/repo/b5l5k/YOUR_REPO_NAME.svg?style=flat-square&label=Repo%20views&label-color=%23a8ffb5&color=%23000)
+
 </div>
 
+<div align="center">
 ---
 
 ## Preview
