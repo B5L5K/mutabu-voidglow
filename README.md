@@ -75,6 +75,16 @@
 
 ## Installation
 
+### Automatic installation
+<div align="center"> 
+ <pre>
+Firefox Extension now available on their official website.
+[https://addons.mozilla.org/en-US/firefox/addon/voidglow-new-tab/]
+Just add the extension and go.
+ </pre>
+
+---
+
 ### Manual installation
 
 <div align="center"> 
@@ -90,7 +100,7 @@
  
 ---
 
-## Developer install
+### Developer install
 
 <div align="center"> 
  <pre>
